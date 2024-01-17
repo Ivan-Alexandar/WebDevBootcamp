@@ -46,11 +46,23 @@ table colespan and rowspan - cells that take up multiple cells
 Forms
 
 form - container
-action atrtribute - where the data should be sent
-input - requests input from user
+action atrtribute - where the data should be sent 
+(example : /search/) http request fired(sent) to /search/ and passing it our data
+groups together inputs and submits them together to a specified destination
+input - accepts input from user// no closing tag
+name attribute - name associated with value, that will be sent to the server
+ type attribute - submit, text, password, colour, number, month, - data types - high and low level
+placeholder attribute - specifies the placeholder text
+labels - accessibility 
+for attribute specifies what the label is for (id) matches all instances of the id
+can also nest input elements in label elements
+id attribute - specifies id
+button - sends the form information to the destination specified in the form for attribute if not specified
+use javascript to program the button
+type attribute - specifies functionality, button, submit
+
+what happens when you submit
 form validations
-buttons
-labels
 range and test areas
 input types
 
