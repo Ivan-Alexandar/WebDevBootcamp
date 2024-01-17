@@ -1,0 +1,18 @@
+li {
+  color: blue;
+}
+.done {
+  color: grey;
+}
+#clear {
+  background-color: red;
+  color: white;
+}
+header a {
+  font-size: 30px;
+  color: teal;
+}
+#dislikes a {
+  font-weight: bold;
+  color: red;
+}

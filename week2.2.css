@@ -1,0 +1,17 @@
+p {
+  /* white-space: nowrap; */
+  /* white-space: pre; */
+}
+h1 {
+  text-transform: uppercase;
+  font-family: monospace;
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 20px;
+  text-decoration: underline wavy plum;
+}
+p {
+  line-height: 2;
+  letter-spacing: 1.5px;
+}

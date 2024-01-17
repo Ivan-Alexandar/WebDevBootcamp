@@ -3,3 +3,26 @@ selector {property:value;}
 inline 
 <style>
 external stylesheet
+
+RGB syntax
+Hexadecimal syntax 2-2-2 (rgb)
+
+
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+text-transform
+
+font-size 
+
+universal selector *
+element selector
+h1,h2,h3 - multiple elements 
+id selector #idname
+class selector .classname //// attribute in html = class=""
+descendant selector li a {}   works on nested elements by specifying the tree
+adjecent selector input + button {}
+direction selector div > li{}  // 1 level down
+attribute selector input[type="text"]{}   element.class syntax  *=anywhere $=ending ~=contains
