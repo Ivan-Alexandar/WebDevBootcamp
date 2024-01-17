@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week2</title>
+    <link rel="stylesheet" href="week2.css" />
   </head>
   <body>
     <h1>Copying reddit and google search form</h1>
@@ -16,6 +17,78 @@
     <form action="https://www.google.com/search">
       <input type="text" name="q" />
       <button>Search Google</button>
+    </form>
+    <br />
+    <h1>ex6</h1>
+    <form action="">
+      <label for="username">Enter username</label>
+      <input type="text" placeholder="username" id="username" />
+      <label for="password">Enter password</label>
+      <input type="password" placeholder="password" id="password" />
+      <button>Register</button>
+    </form>
+    <h1>validations test</h1>
+    <form action="/dummy">
+      <label for="first">Enter first name</label>
+      <input type="text" name="first" id="first" required />
+      <p>
+        <label for="username">Enter username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="5"
+          maxlength="20"
+          required
+        />
+      </p>
+      <p>
+        <label for="email">Enter an email</label>
+        <input type="email" required id="email" />
+        <label for="url">Enter a url</label>
+        <input type="url" required id="url" />
+      </p>
+      <button>Submit</button>
+    </form>
+
+    <h1>Marathon exercise form</h1>
+
+    <h2>Race Registration!</h2>
+    <form action="">
+      <label for="first">First name</label>
+      <input type="text" name="first" id="first" required />
+      <label for="last">Last name</label>
+      <input type="text" name="last" id="last" required />
+      <div>
+        <h3>Select a race:</h3>
+
+        <label for="fr">Fun run 5k</label>
+        <input type="radio" name="race" id="fr" value="fr" required />
+        <label for="hm">Half marathon</label>
+        <input type="radio" name="race" id="hm" value="hm" />
+        <label for="fm">Full marathon</label>
+        <input type="radio" name="race" id="fm" value="fm" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br />
+      <label for="age">Select age group</label>
+      <select name="age" id="age">
+        <option value="under_18">under 18</option>
+        <option value="18_30">18-30</option>
+        <option value="30_50">30-50</option>
+        <option value="50_">50+</option>
+      </select>
+      <br />
+      <br />
+      <div>
+        <button>Register</button>
+      </div>
     </form>
   </body>
 </html>

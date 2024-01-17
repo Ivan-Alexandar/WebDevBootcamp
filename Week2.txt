@@ -1,0 +1,5 @@
+Css - cascading style sheets 
+selector {property:value;}
+inline 
+<style>
+external stylesheet
