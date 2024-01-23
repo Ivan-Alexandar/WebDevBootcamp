@@ -1,0 +1,18 @@
+Pseudo classes(css)
+
+:active - clicked but not released
+:checked - radio button / checkbox
+:hover  - selects element when hovered over
+:nth-of-type() //not counting by n, but n specifically /// 3n - every third
+
+
+Pseudo elements
+
+::first-letter
+::first-line
+::selection
+
+Specificity over cascade   (!important>)(inline styles>)id>class>element
+
+
+Inheritance  :inherit 
