@@ -55,9 +55,9 @@ name attribute - name associated with value, that will be sent to the server
 placeholder attribute - specifies the placeholder text
 checkbox type - checked / /// name = on/off
 radio = radio button /// one selection associated by the same name // value attribute - data sent when the form is submitted
-select = drop down <select name="" id=""><option value=""</option> </select>
+select = drop down <select name="" id=""><option value=""></option> </select>
 range = (volume) min / max / step /value//// (initial value)attributes  --------------same atrtributes for number type
-
+title attribute = hint
 
 labels - accessibility 
 for attribute specifies what the label is for (id) matches all instances of the id
@@ -69,7 +69,10 @@ type attribute - specifies functionality, button, submit
 
 textarea - id, rows, cols, name, placeholder
 
-Server side validations
+ -------clear / save buttons ------
+ ------difference between textarea and input text------
+
+Client side validations
 required attribute
 min /max - numeric
 minlength - maximum length - text

@@ -5,7 +5,7 @@ inline
 external stylesheet
 
 RGB syntax
-Hexadecimal syntax 2-2-2 (rgb)
+Hexadecimal syntax 2-2-2 (rgb) #ff0000 // 0-9 a-f 
 
 
 text-align
@@ -25,4 +25,4 @@ class selector .classname //// attribute in html = class=""
 descendant selector li a {}   works on nested elements by specifying the tree
 adjecent selector input + button {}
 direction selector div > li{}  // 1 level down
-attribute selector input[type="text"]{}   element.class syntax  *=anywhere $=ending ~=contains
+attribute selector input[type="text"]{}   input.textbox syntax  href = "*=anywhere $=ending ~=contains" - tilde
