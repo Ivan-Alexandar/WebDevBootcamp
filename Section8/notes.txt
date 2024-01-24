@@ -8,7 +8,7 @@ border-style - dashed/ dotted/ solid
 border-left/right/top/bottom-style/color/width
 
 border: width, style, color
-box-sizing: border-box
+box-sizing: border-box (border inclusion)
 
 border radius - corners (%, pixels)
 

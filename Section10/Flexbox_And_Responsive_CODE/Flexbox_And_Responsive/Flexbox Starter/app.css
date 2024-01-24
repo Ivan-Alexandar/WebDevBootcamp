@@ -1,14 +1,26 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 #container {
-    background-color: #003049;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
-    border: 5px solid #003049;
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
-
+div:nth-of-type(3) {
+  align-self: center;
+}
+#container div {
+  width: 400px;
+  height: 200px;
+}

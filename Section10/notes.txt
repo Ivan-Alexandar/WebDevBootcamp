@@ -1,1 +1,36 @@
 Flexbox
+
+display: flex - "turns" flexbox properties "on"
+
+main axis- hor l-r
+cross axis - vert t-b
+
+flex-direction  - row, row-reverse, column, column-reverse;
+
+justify-content - flex-start(default), flex-end, center, space-between, space-evenly //// fits in content, based on flex-directi
+
+flex-wrap: wrap/wrap-reverse -content continues on new column/row
+
+align-items: flex-start, center, baseline(font baseline alignment)
+
+align-content: flex-start, space-between, center, etc...
+
+align-self: flex-start, center, flex-end, space-between, space-evenly   ---------- for individual elements !!!
+
+
+flex-basis - initial size - follows direction
+
+flex-grow -controls available space --- unit-less number
+min-width 
+max-width 
+
+flex-shrink - if larger than container --> shrink
+
+
+flex: flexgrow flexshrink flexbasis
+
+
+
+Responsive design and Media queries
+
+@media (max-width:800px)
