@@ -39,3 +39,11 @@ cursor
 
 
 Background
+background-size: cover(scale + crop), contain(scale without crop, but repeat)
+background-position - angchor
+background-repeat 
+background - position > size
+
+
+
+Google fonts

@@ -64,7 +64,9 @@ button:hover {
 section.background {
   width: 80%;
   height: 800px;
-  background-image: url("https://github.com/Ivan-Alexandar/WebDevBootcamp/blob/6413826c58fac26aa65146648984dc901b80af90/Resources/money.png");
+  background: center/cover
+    url("https://github.com/Ivan-Alexandar/WebDevBootcamp/blob/6413826c58fac26aa65146648984dc901b80af90/Resources/money.png?raw=true");
+
   margin: auto;
 }
 section h2 {
