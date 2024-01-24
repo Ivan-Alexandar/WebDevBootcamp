@@ -1,0 +1,42 @@
+.card {
+  width: 210px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+img {
+  width: 200px;
+  border: 5px solid rgb(236, 183, 191);
+  border-radius: 50%;
+}
+
+article {
+  width: 400px;
+  border: 5px dashed rgb(236, 183, 191);
+  border-radius: 10%;
+  background-color: rgba(236, 183, 191, 0.5);
+  margin-bottom: 10px;
+}
+article h2 {
+  color: brown;
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+article p {
+  padding: 5px 10px 5px 10px;
+  margin-top: 0;
+}
+button {
+  padding: 20px 30px;
+}
+
+h1 {
+  background-color: palegoldenrod;
+  border: 1px solid black;
+  display: inline;
+}
+span {
+  display: block;
+  background-color: paleturquoise;
+  border: 1px solid rgb(212, 0, 0);
+}

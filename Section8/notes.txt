@@ -1,3 +1,39 @@
 Box model
 
-Width and height
+Width and height - control the inner part of the element(content)
+border and border radius - 
+border-width
+border-color
+border-style - dashed/ dotted/ solid
+border-left/right/top/bottom-style/color/width
+
+border: width, style, color
+box-sizing: border-box
+
+border radius - corners (%, pixels)
+
+
+Padding- top, right, bottom, left
+
+
+Margin - top, right, bottom, left
+
+
+Display property = inline(hl but not vl), block, inline-block //// none
+
+
+
+Css units
+
+width % - half of the parent
+line-height % - half of the font size of the element itself
+
+em -relative to font size 
+font-size = 1em = font size 2m = font size *2 etc. (parent element)
+others = 1em = font size of the eleemtn itself
+
+
+
+rem = root em
+
+relative to the root element font size

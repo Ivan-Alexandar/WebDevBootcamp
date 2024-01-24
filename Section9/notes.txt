@@ -1,0 +1,41 @@
+Opacity and the alpha channel 
+
+rgba(0,0,0,alpha) - controls transparency /// 0-1
+
+Opacity -transparency = 0-1 /entire elements
+
+Hexadecimal - another 2 channels 00-FF - transparent
+
+position
+
+static - default
+relative  - allows usage of top left right bottom to offset
+absolute - removed from document flow and no space is created for the element / positioned relative to its closest positioned anscenstor (has to not be static)
+fixed - absolute, but is positioned relative to initial containing block
+sticky - begins relative and then becomes fixed, always on display
+
+
+
+Transitions - time
+
+property name
+duration
+timing function - linear, ease-in, steps(6, end), cubic-bezier(.29,1.01,1,-.68)
+delay
+
+
+Transform - affects all contents of an element
+
+rotate - deg(rees), rad(ians), grad(ians), turn - full circle = 1 turn
+rotateX,rotateY, rotateZ
+transform-origin -anchor 
+scale, scaleX, scaleY
+
+transform translate,X,Y - move
+skew,X,Y- leans at an agle
+
+box-shadow
+cursor
+
+
+Background
