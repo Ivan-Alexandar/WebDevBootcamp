@@ -18,7 +18,7 @@ align-content: flex-start, space-between, center, etc...
 align-self: flex-start, center, flex-end, space-between, space-evenly   ---------- for individual elements !!!
 
 
-flex-basis - initial size - follows direction
+flex-basis - initial size - follows direction - rows / cols
 
 flex-grow -controls available space --- unit-less number
 min-width 
@@ -34,3 +34,13 @@ flex: flexgrow flexshrink flexbasis
 Responsive design and Media queries
 
 @media (max-width:800px)
+
+
+
+
+
+
+
+            exercise classes for properties, showcase difference between each containers (justify content different value for separate containers) and add a description
+            separate file and container for each align property
+            each value separate class

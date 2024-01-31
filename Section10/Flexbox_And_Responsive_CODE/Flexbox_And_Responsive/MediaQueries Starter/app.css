@@ -24,7 +24,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
-
+/* breakpoint */
 @media (max-width: 768px) {
   h1 {
     font-size: 4em;

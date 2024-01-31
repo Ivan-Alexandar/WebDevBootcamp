@@ -19,14 +19,14 @@ Padding- top, right, bottom, left
 Margin - top, right, bottom, left
 
 
-Display property = inline(hl but not vl), block, inline-block //// none
+Display property = inline(hl but not vl), block, inline-block, flex //// none
 
 
 
 Css units
 
-width % - half of the parent
-line-height % - half of the font size of the element itself
+width % -  of the parent
+ line-height% -  of the font size of the element itself
 
 em -relative to font size 
 font-size = 1em = font size 2m = font size *2 etc. (parent element)
@@ -37,3 +37,14 @@ others = 1em = font size of the eleemtn itself
 rem = root em
 
 relative to the root element font size
+
+
+
+
+
+
+
+
+
+
+                Compare the display types  --------- exercise 

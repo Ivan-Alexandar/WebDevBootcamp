@@ -1,0 +1,76 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+}
+/* div:nth-of-type(3) {
+  align-self: center;
+} */
+#container div {
+  width: 100px;
+  height: 100px;
+}
+.flexstart {
+  justify-content: flex-start;
+}
+.flexend {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+.between {
+  justify-content: space-between;
+}
+.evenly {
+  justify-content: space-evenly;
+}
+.around {
+  justify-content: space-around;
+}
+.acenter {
+  align-items: center;
+}
+.abaseline {
+  align-items: baseline;
+  font-size: 2em;
+}
+#bigtext {
+  font-size: 5em;
+}
+.acfs {
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.acsb {
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.acc {
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.asc {
+  align-self: center;
+}
+.asfe {
+  align-self: flex-end;
+}
+.asfs {
+  align-self: flex-start;
+}
+
+section {
+  width: 300px;
+  height: 300px;
+}

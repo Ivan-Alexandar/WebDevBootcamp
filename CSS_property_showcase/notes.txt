@@ -1,0 +1,4 @@
+For position: sticky; to work your sticky element should be placed right in body tag as a direct child 
+and should not have any wrapper divs or anything like that. 
+Because it can stay fixed only till it gets to the bottom of the parent element.
+And you should specify where it should stick to like: top: 0;

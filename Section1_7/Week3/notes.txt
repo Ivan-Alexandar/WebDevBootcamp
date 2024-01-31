@@ -2,7 +2,7 @@ Pseudo classes(css)
 
 :active - clicked but not released
 :checked - radio button / checkbox
-:hover  - selects element when hovered over
+:hover - selects element when hovered over
 :nth-of-type() //not counting by n, but n specifically /// 3n - every third
 
 

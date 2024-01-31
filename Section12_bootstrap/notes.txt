@@ -1,0 +1,192 @@
+    Bootstrap
+    provides framework(starting point) for customisation
+    components - buttons nav etc.
+    grid system
+
+
+    container
+    container-fluid = takes up all the space
+    container-sm
+    container-md
+    container-lg
+    container-xl
+ all have different sizing when they hit their breakpoints
+
+
+
+ buttons
+ btn
+ variants - primary, secondary info
+ outline
+ info/warning...
+ sizes
+ disabled state
+
+
+
+ Typography
+ display-1/2/3/4 - heading sizes
+
+ lead - makes a paragraph stand out
+
+ blockquote - represents quotation
+ blockquote-footer =identifies a source (wrap citation in <cite> with title property)
+
+
+ Alignment
+ text-center
+ text-end
+
+ text color
+ text-primary / text-white
+
+ text background color
+ bg-primary / bg-white
+
+
+ Badges
+ span > class = badge bg-secondary /////// scale based on the elem that contains them
+ rounded-pill
+
+
+ Button group - groups buttons together btn-group container class
+
+ Alerts
+alert alert-primary role="alert"
+alert-heading 
+dismissing alerts
+
+
+Grid
+
+has to be in a container
+
+every row has 12 units
+col-3(how many units it takes up)
+col = splits it evenly
+
+Responsive grid
+col-xl-3 col-md-6 col-sm-12
+
+img-fluid
+
+
+Grid utilities
+
+align-items-...
+align-content-...
+align-self...
+breakpoint specification
+
+justify-content-...
+
+
+Froms
+.form-control
+.form-group - groups a label and input(applies margin)
+
+Checkbox classes
+form-check
+form-check-input    
+form-check-label
+
+switch
+role="switch"
+form-check form-switch
+
+
+
+
+Navbars
+
+ <div class="content-fluid"></div>  ===
+ brand
+ expand
+ toggler button
+ nav-item nav-link
+ collapse navbar-collapse
+ data-bs-toggle="collapse"
+ data-bs-target="#expandme"
+ 
+Icons
+
+Border
+top
+bottom
+left
+right
+
+Rounded(radius)
+top
+right
+bottom
+left
+circle
+pill
+0
+
+
+
+Shadow
+shadow-none
+shadow-sm
+shadow
+shadow-lg
+
+
+
+Margin -m
+Padding -p
+{property}{sides}-{breakpoint}-{size}
+
+Sides
+t - top
+b - bottom
+l - left
+r - right
+x -left + right
+y - top+bottom
+blank - for classes that set margin and padding on all 4 sides of elem
+
+Size
+0 - eliminate
+1 - $spacer * .25   - predetermined spacer size
+2 - $spacer * .5
+3 - $spacer * 1
+4 - $spacer * 1.5
+5 - $spacer * 3
+auto - margin = auto
+
+Display
+d-..
+{breakpoint}-none
+inline
+block
+inline-block
+
+
+Size
+sizes = 25 50 75 100 auto
+w-{size}
+h-{size}
+
+
+Cards
+content container
+often used in grid systems
+
+Carousels
+gallery / slider
+connecting controls to data-slide = next /prev
+
+Dropdowns
+
+Spinners
+
+Progress
+
+Modal - pop-up dialog
+
+
+List group
+ 

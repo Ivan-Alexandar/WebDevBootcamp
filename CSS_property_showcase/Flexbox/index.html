@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Playground</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <h1>Let's Play With Flexbox</h1>
+
+    <section id="container">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #64dfdf">2</div>
+      <div style="background-color: #48bfe3">3</div>
+      <div style="background-color: #5390d9">4</div>
+      <div style="background-color: #6930c3">5</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>felxstart</h2>
+    <section id="container" class="flexstart">
+      <div style="background-color: #80ffdb">1</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>flexend</h2>
+    <section id="container" class="flexend">
+      <div style="background-color: #80ffdb">1</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>center</h2>
+    <section id="container" class="center">
+      <div style="background-color: #80ffdb">1</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>space-between</h2>
+    <section id="container" class="between">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>space-evenly</h2>
+    <section id="container" class="evenly">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>space-around</h2>
+    <section id="container" class="around">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+
+    <hr />
+    <hr />
+    <hr />
+    <h2>align items - flex-start</h2>
+    <section id="container">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>align items - center</h2>
+    <section id="container" class="acenter">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>align items - baseline</h2>
+    <section id="container" class="abaseline">
+      <div id="bigtext" style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>align content- flex-start</h2>
+    <section id="container" class="acfs">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <hr />
+    <hr />
+    <hr />
+    <h2>align content- space-between</h2>
+    <section id="container" class="acsb">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+    <h2>align content- center</h2>
+    <section id="container" class="acc">
+      <div style="background-color: #80ffdb">1</div>
+      <div style="background-color: #80ffdb">2</div>
+      <div style="background-color: #80ffdb">3</div>
+    </section>
+
+    <h2>align self- flex-end, start, center</h2>
+    <section id="container" class="abaseline">
+      <div class="asfe" style="background-color: #80ffdb">1</div>
+      <section>
+        <div class="asc" style="background-color: #80ffdb">2</div>
+        <div class="asfs" style="background-color: #80ffdb">2</div>
+      </section>
+
+      <div class="asc" id="bigtext" style="background-color: #80ffdb">3</div>
+      <div class="asfe" style="background-color: #80ffdb">4</div>
+      <div class="asfs" style="background-color: #80ffdb">5</div>
+      <div class="asc" style="background-color: #80ffdb">6</div>
+    </section>
+  </body>
+</html>

@@ -9,7 +9,7 @@ Hexadecimal - another 2 channels 00-FF - transparent
 position
 
 static - default
-relative  - allows usage of top left right bottom to offset
+relative  - allows usage of top left right bottom to offset -- revisit
 absolute - removed from document flow and no space is created for the element / positioned relative to its closest positioned anscenstor (has to not be static)
 fixed - absolute, but is positioned relative to initial containing block
 sticky - begins relative and then becomes fixed, always on display
@@ -26,7 +26,7 @@ delay
 
 Transform - affects all contents of an element
 
-rotate - deg(rees), rad(ians), grad(ians), turn - full circle = 1 turn
+rotate - deg(rees), rad(ians), grad(ians), turn - full circle = 1 turn .25 = 90
 rotateX,rotateY, rotateZ
 transform-origin -anchor 
 scale, scaleX, scaleY
@@ -40,10 +40,22 @@ cursor
 
 Background
 background-size: cover(scale + crop), contain(scale without crop, but repeat)
-background-position - angchor
+background-position - anchor
 background-repeat 
-background - position > size
+background - position/ size
 
 
 
 Google fonts
+
+
+
+
+
+
+
+
+
+            exercise - position values (all) how they work 
+            --------------
+            exercise - mobile version nav bars/ sticky vs fixed
