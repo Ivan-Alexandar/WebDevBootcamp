@@ -4,7 +4,7 @@ equality vs strict equality == vs ===
 == - equality of value but not of type, coerces both values to the same type and then compares them
 === - equality of value and type
 
-
+'1' == 1
                 Console object
 console.log();
 console.clear();
@@ -12,7 +12,7 @@ console.error();
 console.warn();
 
 alert() - creates a popup
-prompt() - accepts arguments from user
+prompt('Enter a number') - accepts arguments from user
 parseInt(str) - accepts string returns number
 
 if statements
@@ -48,7 +48,7 @@ switch(condition){
     case 2:
     code; 
     break;
-    
+
     default:
     code;
 }

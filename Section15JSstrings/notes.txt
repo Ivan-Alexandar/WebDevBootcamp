@@ -1,7 +1,7 @@
                         Strings
 wrapped in quotes "" /''
-
-quotes inside have to be different than quotes encasing the string
+\ - escape character
+quotes 'inside have  to \'be" different' than quotes encasing the string
 
                 strings of characters
 strings are indexed
@@ -12,9 +12,11 @@ string.length = (property) returns the length of the string(not the highest inde
 'text'[0] == t
 
 'text' + 'text' == 'texttext'
-
+1 + 'text' = 1
 can't change a string
 can combine strings and numbers
+
+str.concat
 
 
                         Methods
@@ -43,7 +45,7 @@ str.repeat(i)
 
                         Template literals
 
-`I counted ${3+5} sheep`;
+`I counted ${varName} sheep`;
 back ticks have to be used
 
                         Undefined and null
@@ -59,7 +61,7 @@ Math.floor(number) - chops off number
 Math.ceil(number) - rounds up;
 Math.random() - returns a number between 0-1 (goes from 0-1, not icluding 1)
 Math.floor(Math.random() *100) +1  
-Math.pow
+Math.pow(number/variable, 2)
 
 
 

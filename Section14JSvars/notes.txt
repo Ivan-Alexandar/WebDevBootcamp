@@ -8,15 +8,17 @@ typeof - operator - returns the type of specified data
 
         Variables
 let Name = value;
-variables in the cascade are snapshots in time as defined
+variables in the /cascade/ "are snapshots in time as defined"
 += works
 -- / ++ works
 i++ - post increment
 ++i - pre increment
 
-
+let
 const  - cannot be changed.
 var - old way of making variables - works for the whole document
+
+
 bool - t/f
 
 variables can change types in JS
@@ -25,3 +27,5 @@ Restrictions: no spaces, cant start with nums, cant use keywords
 
 camelCase 
 Dos: bools start with "is"
+follow project naming practices
+
