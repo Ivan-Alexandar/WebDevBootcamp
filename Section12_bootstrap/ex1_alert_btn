@@ -15,7 +15,7 @@
       <h1 class="text-white bg-dark text-center">Bad News</h1>
 
       <div class="alert alert-warning" role="alert">
-        You are going to die one day! It sucks, but it's normal :(
+        You are going to die one day! It sucks, but it's normal.
       </div>
 
       <button class="btn btn-success">Come To Terms With</button>

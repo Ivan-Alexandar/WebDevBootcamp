@@ -1,0 +1,54 @@
+                Comparisons
+equality vs strict equality == vs ===
+
+== - equality of value but not of type, coerces both values to the same type and then compares them
+=== - equality of value and type
+
+
+                Console object
+console.log();
+console.clear();
+console.error();
+console.warn();
+
+alert() - creates a popup
+prompt() - accepts arguments from user
+parseInt(str) - accepts string returns number
+
+if statements
+
+if(condition)
+{
+    code that will run if true is returned;
+}
+else if(){} only runs if last condition is true 
+else(){} every other condition is false this runs
+
+        Nested conditional statements
+
+    Truthy vs falsy
+Falsy : false "" null undefined 0 NaN
+
+
+            Logical operators
+
+And operator = &&  = both conditions true
+Or operator = ||  = one condition true
+Not operator = ! - if expresion is false then code runs
+if(!variable) = if it has no value
+
+
+                Switch statements
+
+switch(condition){
+    case 1:
+    code;
+    break;
+
+    case 2:
+    code; 
+    break;
+    
+    default:
+    code;
+}

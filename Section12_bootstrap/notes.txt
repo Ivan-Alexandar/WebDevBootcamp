@@ -116,6 +116,7 @@ bottom
 left
 right
 
+
 Rounded(radius)
 top
 right
@@ -171,6 +172,8 @@ w-{size}
 h-{size}
 
 
+
+
 Cards
 content container
 often used in grid systems
@@ -186,7 +189,6 @@ Spinners
 Progress
 
 Modal - pop-up dialog
-
 
 List group
  

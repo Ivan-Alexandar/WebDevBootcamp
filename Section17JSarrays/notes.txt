@@ -1,0 +1,63 @@
+                Arrays
+let variable = ['pop','pop','pop'];
+arr.length
+
+----------------arr are indexed-------------------
+let arr = ['pop','pop','pop']
+arr[1][0] first letter of second item (p)
+
+elements in the array can be changed
+arr[2] = 'pep';
+
+arr[10] = 'popr';
+['pop','pop','pep', empty x7, 'popr']
+
+
+push - add to the end
+pop - remove from the end
+shift - remove from the start
+unshift - add to start
+
+arr1.concat(arr2) - merge Arrays
+includes('arg') - looks for value in an array
+indexOf('arg') - find the index of a value in the array // fist match
+reverse - reverse the array // destructive 
+slice(index1, index2) - index 2 ni / 
+copies a portion on an array,
+ if 1 index then it cuts in from that point of
+ negative indexes = arr.length + index
+splice(startIndex, deleteCount, ['item']) - removes/replaces items //destructive
+sort - sort an array (converts all to str, compare UTF-16 values) // can pass a function
+join() - creates a string from an array
+ no arg = sep by ,
+ '' = no space
+ '-' = can define separators
+
+
+                Equal operators in arrays
+arr1['hair', 'beard'] === arr1['hair', 'beard'] //false
+
+arr1['hair', 'beard'] == arr1['hair', 'beard'] // false
+
+== and === compare references in memory
+
+let arr1 =[1,2,3];
+let arr2 = arr1;
+the two arrays are now linked
+they have the same reference
+so == and === work 
+
+
+                    const
+const nums = [1,2,3];
+reference does not change,
+ so items can be changed, as long as arr is not reassigned
+
+                 Multi-dimensional arrays
+nested arrays 
+const colors = [
+    ['red', 'crimson'],
+    ['blue', 'navy blue'],
+    ['yellow', 'golden']
+];
+

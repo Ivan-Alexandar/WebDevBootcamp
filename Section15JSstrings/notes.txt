@@ -1,0 +1,71 @@
+                        Strings
+wrapped in quotes "" /''
+
+quotes inside have to be different than quotes encasing the string
+
+                strings of characters
+strings are indexed
+string[index]
+
+string.length = (property) returns the length of the string(not the highest index)
+
+'text'[0] == t
+
+'text' + 'text' == 'texttext'
+
+can't change a string
+can combine strings and numbers
+
+
+                        Methods
+thing.method();
+string.toUpperCase(); - non-destructive method .toLowerCase()
+
+string.trim(); - deletes white space from both sides - non-destructive method
+
+methods can be chained together
+
+string.trim().toUpperCase();
+
+string.indexOf('argument'); = returns index(first occurance of 'argument'), if not in there = -1;
+ 
+
+str.slice(index1,index2) - gives us the str between the two indexes(index0 incl, index2 not incl)
+negative values (-3) are treated as str.length + beginIndex. str.length-3
+
+str.slice(index) = gives us the str after the index
+
+str.replace('searchValue', 'replaceValue') - can use regExp
+str.replaceAll() - not fully implemented
+
+str.repeat(i)
+
+
+                        Template literals
+
+`I counted ${3+5} sheep`;
+back ticks have to be used
+
+                        Undefined and null
+null - absence of value, must be assigned(intentional)
+ 
+undefined - no assigned value
+
+
+                        Math Object
+Math = contains properties and methods
+Math.PI
+Math.floor(number) - chops off number
+Math.ceil(number) - rounds up;
+Math.random() - returns a number between 0-1 (goes from 0-1, not icluding 1)
+Math.floor(Math.random() *100) +1  
+Math.pow
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,42 @@
+                        Object literals
+
+collections of properties (and or methods)
+key-value pair
+access data using those keys
+
+const fitBitData ={
+    totalSteps :308727,
+    total miles :211.7,
+    avgCalorieBurn :5755,
+    workoutsThisWeek :'5 of 7',
+    avgGoodSleep : '2:13',
+    1999 : 'Bad'
+}
+
+fitBitData['totalSteps'] - get object to return data by 
+ giving a key as an arg
+fitbitData.totalSteps - another way to specify key
+
+all keys are converted to strings (except for symbols)
+fitBitData[1999] - works! (for numbers)
+ converted to string before accepted as an arg(null can be used as well)
+
+
+difference between [] and . is that in [] you can pass and argument
+
+
+                    Accessing data
+fitbitData.totalSteps = 310000;
+fitbitData.newProp = 'Hello'; 
+
+can update or create new properties the same as arrays
+
+
+                    Nesting arrays and objects
+an array with objects or an object with arrays
+
+const comments = 
+[{username:'Tammy, text:'hello hello', votes: 9},
+ {username:'FishBoy', text: 'glub', votes: 1235}]
+
+ comments[1].text
