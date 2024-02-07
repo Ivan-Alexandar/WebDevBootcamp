@@ -1,2 +1,63 @@
                             Loops
-                            
+for(
+    [initalExpression];
+    [condition];
+    [incrementExpression];
+)
+
+for(let i = 1; i <=11; i++)
+nums 1->10
+
+for(let i = 25; i >=0; i-=5)
+items from 25 to 0, step 5
+infinite loops
+
+
+            looping over arrays
+for(let i = 0; i<arr.length; i++)
+{
+    console.log(arr[i]);
+}
+
+
+                    Nesting loops
+for every iteration of outer loop, inner loop runs full iteration
+useful for traversing arrays
+
+const arr =[['adrian', 'as','christian'],['mohammad','abdul','allah'],['john','steve','anya','ivan']];
+
+for(let i = 0; i<arr.length; i++){
+    for(let j = 0; j<arr[i].length; j++)
+    console.log(arr[i][j]);
+}
+
+for(let i = 0; i<arr.length; i++){
+    const row = arr[i];
+    for(let j = 0; j<row.length; j++)
+    console.log(row[j]);
+}
+
+
+                    While loop
+while(condition)
+{
+    code repeated if cond === true
+}
+
+break;   -stops looping, code resumes after the loop
+
+
+
+
+                        for ...of
+
+
+
+
+
+
+
+for ...in
+
+
+const arr =[['adrian', 'as','christian'],['mohammad','abdul','allah'],['john','steve','anya','ivan']];
