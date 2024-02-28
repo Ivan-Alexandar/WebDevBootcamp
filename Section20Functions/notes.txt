@@ -1,0 +1,98 @@
+            Functions
+function funcName(parameterName){
+    code
+}
+
+funcName(argument) - execute
+
+function printHeart(){
+    console.log('<3');
+}
+printHeart();
+
+function rant(message){
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+    
+}
+
+                Arguments
+
+function funcName(parameterName0, parameterName1){
+    code//;
+}
+
+function repeat(str, num)
+{
+    let result ='';
+    for(let i = 0; i < num; i++)
+    {
+        result += str;
+        
+    }
+    console.log(result);
+}
+repeat('hig', 5);
+
+
+function isSnakeEyes(dice1, dice2){
+    if(dice1 == 1&& dice2 ==1 ){
+        console.log('Snake Eyes!');
+    }
+    else{
+        console.log('Not Snake Eyes!');
+    }
+}
+
+
+
+
+                Return
+
+return value (can be captured)
+stops execution
+
+
+function multiply(x,y){
+    return x*y;
+}
+
+function isShortsWeather(temperature)
+{
+    if (temperature >= 75) {
+        return true;
+    } 
+    return false;
+}
+
+function lastElement(array)
+{
+    if (array.length <1) {
+        return null;
+    } 
+    return array[array.length-1];
+}
+
+function capitalize(str)
+{
+    let capStr = str[0].toUpperCase() + str.slice(1);
+    return capStr;
+}
+function sumArray(arr)
+{
+    let total = 0;
+    for(let item of arr){
+        total += item;
+    }
+    return total;
+}
+
+function returnDay(num)
+{
+    let week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    if (num <1 || num>7) {
+      return null;  
+    } 
+    return week[num -1];
+}

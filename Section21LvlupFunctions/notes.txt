@@ -1,0 +1,105 @@
+            Function scope
+Priority for in-scope code/variables 
+variables declared in function scope cannot be accessed outside
+
+let deadlyAnimal = "Blue-Ringed Octopus";
+ 
+function handleAnimal() {
+    let deadlyAnimal = "Scorpionfish";
+    console.log(deadlyAnimal);
+}
+ 
+handleAnimal();
+console.log(deadlyAnimal)
+
+"Scorpionfish"
+"Blue-Ringed Octopus"
+
+
+If varible/code written in conditional it cannot be accessed outside it
+var can be accessed anywhere
+
+
+                    Lexical scoping
+                    //nesting functions
+child function has access to parent fucntion scope // not the other way around
+functions can run other functions
+
+
+
+            Function expressions
+storing a function in a variale
+const square = fucntion(num) {return num* num;}
+square(7); // 49
+
+                Higher order functions
+functions that operate with other functions      
+they can accept other functions as args and/or return a function
+
+
+function callTwice(func) {
+    func();
+    func();
+}
+function rollDie(){
+    const roll = Math.floor(Math.random() *6) +1;
+    console.log(roll)
+}
+callTwice(rollDie )
+
+
+                    Factory function
+function makeBetweenFunc(min, max){
+    return function(num){
+        return num >= min && num <= max;
+    }
+}
+const isChild = makeBetweenFunc(0, 18)
+const isAdult = makeBetweenFunc(19, 64)
+const isSenior = makeBetweenFunc(65, 120)
+const testRange = function(num)
+
+
+
+                Defining methods
+a function that is a property in an object
+const obj = {
+    PI: 3.14,
+    squares: function (num) {
+        return num * num;
+    },
+    cube(num) { return num ** 3 }
+
+}
+obj.squares(2);
+obj.cube(2);
+
+const square = {
+    PI: 3.14,
+    area(side){
+        return side * side;
+    },
+    perimeter(side){
+        return side *4;
+    }
+
+}
+
+
+
+                        .this
+.this accesses the window(top level object) object (not explained well)
+const hen = {
+    name : 'Helen',
+    eggCount: 0,
+    layAnEgg(){
+        this.eggCount++
+        return 'EGG'
+    }
+}
+
+                        Try/Catch
+try{
+}
+catch(e) {
+}

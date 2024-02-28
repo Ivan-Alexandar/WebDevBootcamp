@@ -51,13 +51,35 @@ break;   -stops looping, code resumes after the loop
 
                         for ...of
 
+for(variable of iterable){
+    statement
+}
 
+const nameList = ['adrian', 'as','christian','mohammad','abdul','allah','john','steve','anya','ivan'];
 
-
-
-
-
-for ...in
+for(let name of nameList)
+{
+    console.log(name);
+}
 
 
 const arr =[['adrian', 'as','christian'],['mohammad','abdul','allah'],['john','steve','anya','ivan']];
+for(let row of arr){
+for(let name of row){console.log(name);}
+}
+
+for(let char of 'strike'){console.log(char);}
+
+
+                    Iterating over objects
+for ...in
+
+for(let item in object)
+{
+    statement;
+}
+
+Object.keys(objectName) - gives us an array of an object's keys
+Object.values(objectName) --=
+Object.entries(objectName) - returns a nested array of key-value pairs
+

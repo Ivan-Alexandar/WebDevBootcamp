@@ -1,0 +1,136 @@
+                    Array methods
+                    forEach
+const nums = [1,2,3,4,5,6,7,8,8,9,10];
+nums.forEach(function (el){
+    if (el % 2=== 0){
+    console.log(el); 
+    }
+})
+
+
+                map
+ const nums = [1,2,3,4,5,6,7,8,8,9,10];
+ const doubles = nums.map(function (num){
+    return num *2;
+ })
+ 
+
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+let firstNames =fullNames.map(function (name){
+    return name.first;
+})
+
+
+                        Arrow functions
+=>
+
+const square = (x) => {
+    return x*x;
+}
+const square = x => {
+    return x*x;          //also works for singular arguments
+}
+
+const greet = (name) => {
+    return 'Hey ' + name + '!'
+}
+                            Implicit returns
+const greet = (name) => (
+     'Hey ' + name + '!'   //can only be used for one-liners
+)
+
+const add = (a,b) => a +b //can only be used for one-liners
+
+                    Wrapup 
+
+
+ const nums = [1,2,3,4,5,6,7,8,8,9,10];
+ const doubles = nums.map(num =>num *2)
+
+                    setTimeout
+setTimeout(()=>{
+    console.log("Hello!")
+}, 3000)
+
+                    setInterval
+console.log("Hello!")
+const id = setInterval(() => console.log('Hello'), 2000);
+clearInterval(id);
+
+
+
+
+                        Filter
+ const nums = [1,2,3,4,5,6,7,8,8,9,10];
+ const odds = nums.filter(num =>{
+    return n%2 ===1;
+ })
+ const smallNums = nums.filter(n=> n<5);
+
+
+ function validUserNames(usernames) {
+  return usernames.filter(user => user.length <10)
+}
+                        
+
+                        Every/Some
+ const nums = [1,2,3,4,5,6,7,8,8,9,10];
+ nums.every(n => n >= 1) // will return true
+ goes through the whole array and it all has to return true
+
+const nums = [1,2,3,4,5,6,7,8,8,9,10];
+ nums.some(n => n >= 1) // will return true
+ goes through the whole array and it any has to return true
+
+
+function allEvens (numbers){
+   if (numbers.every(n => n %2 ===0)) {
+       return true;}
+       return false;
+}
+
+                        Reduce
+const nums = [1,2,3,4,5,6,7,8,8,9,10];
+nums.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}) 
+
+accumulator = whatever is returned will be used as the next value;
+currentValue = current element selected
+
+
+nums.reduce((min, num) => {
+    if (num < min) return price;
+    return min;
+})
+
+
+nums.reduce((sum, num) => {
+    return sum + num;
+}, 100 // will be initial value for accumulator)
+
+
+                        Arrow function and .this
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: function(){
+        return `${this.firstName} ${this.lastName}`
+    }
+} //Viggo Mortensen -  refers to current scope
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: () => {
+        return `${this.firstName} ${this.lastName}`
+    },
+ //undefined undefined - .this refers to the scope where it was created
+    shoutName: fucntion() {
+        setTimeout(() => {
+            console.log(this);
+            console.log(this.fullName())
+        },3000)
+    }
+}
